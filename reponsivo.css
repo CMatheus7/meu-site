@@ -1,0 +1,144 @@
+/* Responsividade */
+@media (max-width: 1200px) {
+  header .barraPesquisa {
+    width: 25rem;
+    margin-left: 1rem;
+  }
+
+  header .meu-carrinho, header .cadastro {
+    font-size: 1.2rem;
+  }
+
+  .slide {
+    margin: 0.5rem;
+  }
+
+  .img-produto {
+    max-width: 250px;
+  }
+
+  .card-produto {
+    margin: 0.5rem;
+  }
+
+  .Navegacao ul {
+    flex-direction: column;
+  }
+
+  .Navegacao li {
+    margin: 0.5rem 0;
+  }
+
+  .carrinho-side-contador, .carrinhoVazio span {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  header .barraPesquisa {
+    width: 20rem;
+    margin-left: 0.5rem;
+  }
+
+  header .meu-carrinho, header .cadastro {
+    font-size: 1rem;
+  }
+
+  .slide {
+    margin: 0.5rem 0;
+  }
+
+  .img-produto {
+    max-width: 200px;
+  }
+
+  .card-produto {
+    margin: 0.5rem 0;
+  }
+
+  .Navegacao ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Navegacao li {
+    margin: 0.5rem 0;
+  }
+
+  .carrinho-side-contador, .carrinhoVazio span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .Logomarca {
+    margin-left: 1rem;
+  }
+
+  header .barraPesquisa {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  header .meu-carrinho, header .cadastro {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .slide {
+    margin: 0;
+  }
+
+  .img-produto {
+    max-width: 150px;
+  }
+
+  .card-produto {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+
+  .Navegacao ul {
+    flex-direction: column;
+  }
+
+  .Navegacao li {
+    margin: 0.5rem 0;
+  }
+
+  .carrinho-side-contador, .carrinhoVazio span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  header .barraPesquisa {
+    width: 100%;
+  }
+
+  .img-produto {
+    max-width: 100px;
+  }
+
+  .card-produto {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+
+  .Navegacao li {
+    margin: 0.5rem 0;
+  }
+
+  .carrinho-side-contador, .carrinhoVazio span {
+    font-size: 0.9rem;
+  }
+
+
+}
